@@ -111,10 +111,6 @@ A função `VF` calcula o valor futuro de um investimento com base em pagamentos
 * **`[vp]` (0 ou omitido):** Valor presente/inicial. Definido como $0$, assumindo que o investimento começa do zero.
 * **`[tipo]` (0):** Pagamentos efetuados no final do período.
 
-#### **Equação Matemática Equivalente:**
-$$VF = \text{Aporte} \times \left( \frac{(1 + i)^n - 1}{i} \right)$$
-*Onde* $i = \text{taxa\_mensal}$ *e* $n = \text{total de meses}$.
-
 ---
 
 ### 2. `PROCV` (Procura Vertical)
